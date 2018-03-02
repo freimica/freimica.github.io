@@ -1,1 +1,0 @@
-# freimica.github.io
