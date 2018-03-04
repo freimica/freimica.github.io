@@ -17,7 +17,10 @@ class App extends Component {
         </header>
         <div className="tiles">
         </div>
-        <footer className="footer"></footer>
+        <footer className="footer">
+            <p>This is a work in progress. Built with React.</p>
+            <a className="btn" href="mailto:michael@michaelfreiman.com">Say Hello</a>
+        </footer>
       </div>
     );
   }

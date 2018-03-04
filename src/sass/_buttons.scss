@@ -1,0 +1,23 @@
+button.btn,
+a.btn {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  border-radius: 16px;
+  font-size: 16px;
+  margin: 12px 0;
+  padding: 12px 18px;
+  color: #b0003a;
+  cursor: pointer;
+  text-decoration: none;
+  // User-Agent Style Overrides
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b0003a;
+  border-image: none;
+  &:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+    outline: none;
+  }
+}

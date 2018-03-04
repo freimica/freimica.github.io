@@ -5,7 +5,6 @@
   min-height: 100vh;
   & > * {
     flex: 1 100%;
-    min-height: 150px;
     padding: 1em;
   }
 }
@@ -71,7 +70,6 @@
 
 .footer {
   background-color: #fff;
-  border-bottom: 4px solid #3a3a3a;
 }
 
 @keyframes App-logo-spin {

@@ -1,3 +1,25 @@
+button.btn,
+a.btn {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  border-radius: 16px;
+  font-size: 16px;
+  margin: 12px 0;
+  padding: 12px 18px;
+  color: #b0003a;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b0003a;
+  border-image: none; }
+  button.btn:focus,
+  a.btn:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+    outline: none; }
+
 .app {
   display: flex;
   flex-flow: row wrap;
@@ -5,7 +27,6 @@
   min-height: 100vh; }
   .app > * {
     flex: 1 100%;
-    min-height: 150px;
     padding: 1em; }
 
 .nav {
@@ -62,8 +83,7 @@
     bottom: -40%; }
 
 .footer {
-  background-color: #fff;
-  border-bottom: 4px solid #3a3a3a; }
+  background-color: #fff; }
 
 @keyframes App-logo-spin {
   from {
